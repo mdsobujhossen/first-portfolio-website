@@ -18,8 +18,23 @@
     border-radius: 5px;
     cursor: pointer;
 }
-
-
+.about-title{
+    text-align: center;
+    width: 827px;
+    margin: 0 auto;
+}
+.about-title h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.about-title p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 20px;
+    line-height: 30px;
+    
+}
 
 
 /* normal styles */
@@ -32,8 +47,8 @@
 
 }
 #header nav{
-    max-width: 1140px;
     width: 71%;
+    max-width: 1140px;
     margin: 0 auto;
     padding-top: 30px;
     display: flex;
@@ -61,10 +76,11 @@
 }
 
 #about-info{
-    margin: 20px 38px 0px 230px;
+    margin: 40px 38px 0px 230px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 1600px;
 }
 .info-box{
     max-width:585px;
@@ -101,4 +117,91 @@
 #about-info .image img{
     vertical-align: middle;
     max-width: 100%;
+}
+
+
+
+/* about section */
+.about-section{
+    padding: 130px 230px;
+
+}
+
+.bg-box{
+    text-align: center;
+    background: #FFF8F3;
+    padding: 131px 156px;
+    border-radius: 10px;
+
+}
+.about h2{
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.about p{
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+
+.small-info-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.samall-info p{
+    margin-bottom: 0;
+    color: #757575;
+    font-size: 20px;
+    
+}
+.samall-info h3{
+    margin-bottom: 0;
+    color: #474747;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: bold;
+    
+}
+
+
+
+/* skills section */
+.skill-parent{
+    /* background: #E8E8E8; */
+    margin-top: 40px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.skill{
+    max-width: 267px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 6px 50px 0 #00000038;
+
+}
+.skill img{
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skill h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
+.skill p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
 }
