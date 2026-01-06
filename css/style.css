@@ -278,3 +278,58 @@ body{
     text-align: center;
     margin-top: 50px;
 }
+
+
+footer{
+    background: #FFF8F3;
+    padding: 130px 0;
+    margin-top: 113px;
+}
+
+.footer-container{
+    width: 71%;
+    max-width: 1140px;
+    display: flex;
+    margin: 0 auto;
+    gap: 117px;
+}
+
+
+.footer-container .footer-info{
+    max-width: 562px;
+}
+.footer-container .footer-info h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.footer-container .footer-info p{
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.footer-container .footer-info .icons a{
+    margin-right: 24px;
+}
+.footer-container .footer-info .icons a img{
+    max-width: 24px;
+}
+.footer-container .form h3{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 28px;
+}
+.footer-container .form input[type="text"],
+ .footer-container .form input[type="email"],
+ .footer-container .form textarea{
+    width: 461px;
+    padding: 18px 30px;
+    line-height: 28px;
+    color: #757575;
+    border-style: none;
+    margin-bottom: 24px;
+    border-radius: 5px;
+}
