@@ -4,6 +4,10 @@
     font-family:"Open Sans", sans-serif;
     box-sizing: border-box;
 }
+body{
+    max-width: 1600px;
+    margin: auto;
+}
 /* shared styles */
 .orange-color{
     color: #FD6E0A;
@@ -42,7 +46,7 @@
     background: #FFF8F3;
     background: url(../image/developer.png), url(../image/header_bg.png), #FFF8F3;
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     /* background-size: ; */
 
 }
@@ -180,7 +184,7 @@
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
-    padding: 20px;
+    
 }
 .skill{
     max-width: 267px;
@@ -204,4 +208,73 @@
     font-size: 16px;
     color: #757575;
     line-height: 28px;
+}
+
+
+/* resume section */
+
+#resume{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+
+.resume-container .resume-title{
+    text-align: center;
+
+}
+.resume-container .resume-title h2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 113px;
+
+}
+
+.resume-container .resume-box{
+    display: flex;
+    gap: 24px;
+}
+
+.resume-container .resume-box h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.resume-container .resume-box .resume-card{
+    max-width: 511px;
+
+}
+.resume-container .resume-box .resume-card h3{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+
+}
+.resume-container .resume-box .resume-card .card-info{
+    font-size: 20px;
+    font-weight: 600;
+    color: #757575;
+    margin-bottom: 20px;
+
+}
+.resume-container .resume-box .resume-card p{
+    line-height: 28px;
+    color: #757575;
+    margin-bottom: 20px;
+
+}
+.resume-container .resume-box hr{
+    margin-bottom: 30px;
+    color: #D1D1D1;
+}
+
+
+.resume-container .resume-btn{
+    text-align: center;
+    margin-top: 50px;
 }
